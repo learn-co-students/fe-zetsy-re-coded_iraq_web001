@@ -17,4 +17,20 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+h1{
+  font-family: Baskerville,Sans-Serif;
+}
+div div.boxer{
+  border:3px solid blue;
+  width:100%;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.kkk{
+  position: relative;
+}
+  
+  
