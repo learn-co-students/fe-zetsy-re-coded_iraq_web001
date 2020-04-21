@@ -7,7 +7,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: rgb(161,174,169);
 }
 
 .wrapper {
@@ -18,3 +19,27 @@ body {
 }
 
 /* Write all remaining styles here */
+	.wrapper h1 {
+
+		font-size: 50px;
+	}
+	.wrapper p {
+
+		color: rgb(120,107,112);
+	}
+	a.link{
+		text-decoration: none;
+	}
+	.left-aligned{
+
+		text-align: right;
+	}
+	img{
+
+		border: 5px solid rgb(160,174,169);
+		transition: all 0.8s ease;
+	}
+	img:hover{
+
+		border: 5px solid rgb(120,107,112);
+	}
