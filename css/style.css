@@ -17,4 +17,64 @@ body {
 	padding: 0 45px 20px;
 }
 
+header{
+  
+  margin=0;
+  
+}
+
+header h1 a{
+  
+  text-decoration: none;
+  color:rgb(152,173,166);
+  font-size: 80px;
+}
+
+header h1 a:hover{
+  color : rgb(111,127,122);
+  transition: 0.6s ease;
+}
+header h1+img{
+  
+  border: rgb(152,173,166) 5px solid;
+  
+}
+
+main section h2{
+  font-size:32px;
+  color:rgb(111,127,122);
+}
+
+main section p{
+  font-size:16px;
+  color:rgb(85, 85, 85);
+}
+
+main section p a{
+  
+  text-decoration: none;
+  color:rgb(23, 131, 187);
+  
+}
+
+main section p a:hover{
+  
+  text-decoration: underline;
+  border: 2px solid rgb(111,127,122)
+}
+.eachonimg{
+  border : 5px solid rgb(152,173,166);
+  
+}
+
+.eachonimg:hover{
+  border: 5px solid rgb(111,127,122);
+  
+}
+
+footer{
+  font-size: 12px;
+  text-align: right;
+  color: rgb(85, 85, 85)
+}
 /* Write all remaining styles here */
