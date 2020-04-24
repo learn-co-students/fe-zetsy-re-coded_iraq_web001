@@ -7,14 +7,40 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 10px 45px 40px;
 }
 
 /* Write all remaining styles here */
+h1 a{
+	text-decoration: none;
+	color: rgb(152,173,166);
+	font-size: 80px;
+}
+h2 {
+	color: rgb(152,173,166);
+}
+.log {
+	border: 5px solid;
+	border-color: rgb(152,173,166);
+}
+#necklace {
+	border: 5px solid;
+	border-color: rgb(152,173,166);
+}
+footer{
+float: right;
+padding: 5px;
+}
+h1 a:hover{
+	color: grey;
+}
+.log:hover{
+	border-color: grey;
+}
