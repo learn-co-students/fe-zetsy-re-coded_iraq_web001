@@ -1,20 +1,132 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
-body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+aside {
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-color:  #3D4F5D;
+    text-align: left;
+    border-radius: 1px;
+    color: white;
+    position: fixed;
+    font-family: sans-serif, arial, "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
 }
-
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+aside div{
+    padding-right: 30px;
+    padding-top: 100px;
+    margin-top: 50%;
 }
-
-/* Write all remaining styles here */
+.button{
+    
+    padding-left: 20px 10px ;
+    text-align: right;
+    border: 1px solid rgb(200,200,200);
+    margin-right: 5px;
+}
+aside div{
+    text-align: right;
+}
+aside div p{
+    color: rgb(200,200,200);
+}
+aside div p a{
+    color: white;
+    text-decoration: none;
+}
+aside div h3{
+    font-size: 35px;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+}
+img[alt="avatar"]{
+    float: right;
+}
+.add-padding{
+    padding-bottom: 40px;
+}
+main{
+    font-family: sans-serif, arial, "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    margin:0px 300px ;
+}
+a {
+    text-decoration: none;
+}
+section h2{
+    display: inline;
+}
+.green{
+    padding: 0px 10px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+}
+.gray{
+    
+    color: gray;
+}
+.lightblue{
+    padding: 0px 10px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+.red{
+    padding: 0px 10px;
+    color: white;
+    background-color: rgb(218, 14, 75);
+    border: none;
+}
+main{
+    padding-left: 10px;
+}
+section .footer{
+   margin-left: 40%;
+}
+.footer table thead {
+    color: #CFD2DA;
+}
+.about{
+    margin-left: 30%;
+    padding-right: 40px;
+}
+.posts{
+    color: #B5B0B2;
+}
+hr{ 
+    height: 1px;
+    color: #B5B0B2;
+    background-color: #B5B0B2;
+    border: none;
+  }
+  .gray-1{
+    padding: 0px 10px;
+    color: white;
+    background-color: #999999;
+    border: none;
+  }
+  .twitter{
+    margin-left: 30%;
+    padding-right: 40px;
+}
+.github{
+    margin-left: 30%;
+    padding-right: 40px;
+}
