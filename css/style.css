@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1{
+	margin: 0;
+	padding: 0.5rem 0;
+	border-bottom:  1px solid #98ada6;
+}
+a{
+  	text-decoration:none;
+}
+#header-text{
+	color: #98ada6;
+	margin: 0;
+	font-size: 5rem;
+}
+#header-text:hover{
+	color: #6F7F7A;
+}
+.bordered-img{
+  border:5px solid #98ada6;
+}
+main{
+  margin-top: 0.5rem;
+}
+h2{
+  color: #6F7F7A;
+  font-size: 2rem;
+}
+.press-image-container img{
+	border-color: #ccc;
+}
+.press-image-container a:hover img{
+  border-color: #6F7F7A;
+}
+#jewelry-wiki{
+  color: #1F87BD;
+}
+section p{
+	color: #555555;
+}
+footer p{
+text-align: right;
+font-size: .8rem;
+color: #555555;
+}
