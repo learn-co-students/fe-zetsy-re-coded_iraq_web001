@@ -3,7 +3,9 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
+h1{
+  color:gray;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -18,3 +20,13 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#copyright{
+ 
+  padding:10px 0px 10px 700px;
+}
+
+
+
+
+
