@@ -7,14 +7,37 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
-
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
+.heading{
+	color: black;
+	font-size: 25px;
+	width: 125px;
+}
+.heading :hover{
+	color: rgb(152,173,166);
+}
+#borde{
+	border: 5px solid grey;
+}
+.ABPRE{
+	color: black;
+	font-size: 20px;
+	width: 125px;
+}
+.news{
 
+}
+#bord{
+	border: 5px solid black;
+}
+#bord :hover{
+	border-color:  white;
+}
 /* Write all remaining styles here */
