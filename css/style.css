@@ -1,20 +1,74 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import '../fonts/Baskerville.ttc';
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #f3ebe9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+header a {
+  color: #98ada6;
+  font-size: 5rem;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #6f7f7a;
+}
+
+/* featured section  */
+.img-wrapper {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-wrapper img {
+  width: 100%;
+  border: 6px solid #989898;
+}
+
+h2 {
+  color: rgb(111, 127, 122);
+  font-size: 2em;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+}
+
+p a {
+  text-decoration: none;
+  color: #1783bb;
+}
+
+/* press section  */
+.prees-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.press-box {
+  border: 5px solid #ccc;
+}
+.press-box:hover {
+  border: 5px solid rgb(111, 127, 122);
+}
+
+/* footer  */
+footer p {
+  text-align: right;
+}
