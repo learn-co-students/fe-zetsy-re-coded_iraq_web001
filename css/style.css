@@ -17,4 +17,66 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+.headerText {
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
+
+.headerText:hover {
+	color: rgb(111,127,122);
+}
+
+.imageZet {
+      border: 5px rgb(152,173,166) solid;
+}
+
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+
+.Sec1 a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+.Sec1 a:hover {
+	text-decoration: underline;
+}
+
+
+.Sec2 {
+	margin-bottom: 20px;
+}
+
+.Sec2 img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+.Sec2 img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+.footertext {
+	font-size: 0.8em;
+}
+
 /* Write all remaining styles here */
