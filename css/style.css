@@ -1,8 +1,23 @@
 /*////////////// Fonts //////////////*/
+@font-face{
+  font-family:jalal;
+  src: url(./Fonts/Baskerville.ttc);
+  
+}
 
 /* link the web font used for the level 1 heading here */
+h1{
+  font-family: jalal;
+  color: gray;
+  font-size: 44px;
+  
+}
 
 /*////////// Global Styles //////////*/
+h2{
+  font-family: jalal;
+  color: gray;
+}
 
 body {
 	background: #F3EBE9;
@@ -12,9 +27,23 @@ body {
 
 .wrapper {
 	width: 960px;
+	height: 145vh;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+.border{
+  border: 3px solid gray;
+}
+.hover:hover{
+  border: 3px solid black;
+}
+
+.copyright{
+  float: right;
+}
+a{
+  text-decoration: none;
+}
